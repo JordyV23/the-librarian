@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="icon" href="../public/icon.svg" type="image/svg+xml">
     <script src="https://kit.fontawesome.com/8633cf8400.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -26,7 +27,7 @@
                         <a class="nav-link" href="/index.php"><i class="fa-solid fa-house"></i> Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa-solid fa-book-bookmark"></i> Libros</a>
+                        <a class="nav-link" href="/productos.php"><i class="fa-solid fa-book-bookmark"></i> Libros</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/about.php"><i class="fa-brands fa-redhat"></i> Nosotros</a>
@@ -36,4 +37,5 @@
     </nav>
 
     <div class="container">
+        <br/>
         <div class="row">
