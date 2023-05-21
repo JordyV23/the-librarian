@@ -40,7 +40,7 @@ if ($_POST) {
                             <div class="form-group">
                                 <label><i class="fa-solid fa-user"></i> Usuario</label=>
                                     <input type="text" class="form-control" -describedby="emailHelp"
-                                        placeholder="Ingrese su nombre de usuario" name="usuario">
+                                        placeholder="Username" name="usuario">
                             </div>
 
                             <div class="form-group">

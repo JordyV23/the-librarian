@@ -13,13 +13,14 @@
 </head>
 
 <body>
+    <?php $url="http://".$_SERVER['HTTP_HOST']."/the-librarian"; ?>
 
     <nav class="navbar navbar-expand navbar-light bg-light">
         <div class="nav navbar-nav">
             <a class="nav-item nav-link" href="#">Administrador</a>
-            <a class="nav-item nav-link" href="#"> <i class="fa-solid fa-house-user"></i> Home</a>
-            <a class="nav-item nav-link" href="#"> <i class="fa-solid fa-book-bookmark"></i> Libros</a>
-            <a class="nav-item nav-link" href="#"> <i class="fa-solid fa-table-columns"></i> Ver Sitio</a>
+            <a class="nav-item nav-link" href="<?php echo $url; ?>/admin/inicio.php"> <i class="fa-solid fa-house-user"></i> Home</a>
+            <a class="nav-item nav-link" href="<?php echo $url; ?>/admin/section/productos.php"> <i class="fa-solid fa-book-bookmark"></i> Libros</a>
+            <a class="nav-item nav-link" href="<?php echo $url; ?>/admin/section/cerrar.php"> <i class="fa-solid fa-table-columns"></i> Ver Sitio</a>
             <a class="nav-item nav-link" href="#"> <i class="fa-solid fa-right-from-bracket"></i> Cerrar Sesion</a>
         </div>
     </nav>
