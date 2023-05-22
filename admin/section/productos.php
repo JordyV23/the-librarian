@@ -7,10 +7,7 @@ $txtNombre = (isset($_POST['txtNombre'])) ? $_POST['txtNombre'] : "";
 $txtImage = (isset($_FILES['txtImage']['name'])) ? $_FILES['txtImage']['name'] : "";
 $accion = (isset($_POST['accion'])) ? $_POST['accion'] : "";
 
-$host = "localhost";
-$bd = "theLibrarian";
-$usuario = "jordy";
-$password = "1234";
+
 
 include("../config/bd.php");
 

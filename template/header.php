@@ -24,13 +24,13 @@
             <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/index.php"><i class="fa-solid fa-house"></i> Inicio</a>
+                        <a class="nav-link" href="index.php"><i class="fa-solid fa-house"></i> Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/productos.php"><i class="fa-solid fa-book-bookmark"></i> Libros</a>
+                        <a class="nav-link" href="productos.php"><i class="fa-solid fa-book-bookmark"></i> Libros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/about.php"><i class="fa-brands fa-redhat"></i> Nosotros</a>
+                        <a class="nav-link" href="about.php"><i class="fa-brands fa-redhat"></i> Nosotros</a>
                     </li>
             </div>
         </div>

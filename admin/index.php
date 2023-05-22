@@ -1,6 +1,16 @@
 <?php
+
+session_start();
 if ($_POST) {
-    header('Location:inicio.php');
+
+    if (($_POST['usuario'] == 'Jordy') && $_POST['contrasenia'] == '1234') {
+        $_SESSION['usuario'] = 'ok';
+        $_SESSION['nombreUsuario'] = "Jordy";
+        header('Location:inicio.php');
+    } else {
+        $mensaje = "Error: Usuario y/o contraseña no validos";
+    }
+
 }
 
 ?>
@@ -36,6 +46,15 @@ if ($_POST) {
                         Inicio de Sesion
                     </div>
                     <div class="card-body">
+
+                        <?php if (isset($mensaje)) { ?>
+                            <div class="alert alert-danger" role="alert">
+                                <strong>
+                                    <?php echo $mensaje ?>
+                                </strong>
+                            </div>
+                        <?php } ?>
+
                         <form method="POST">
                             <div class="form-group">
                                 <label><i class="fa-solid fa-user"></i> Usuario</label=>
@@ -47,7 +66,8 @@ if ($_POST) {
                                 <label><i class="fa-solid fa-key"></i> Contraseña</label>
                                 <input type="password" class="form-control" placeholder="Contraseña" name="contrasenia">
                             </div>
-                            <button type="submit" class="btn btn-primary"><i class="fa-solid fa-user-check"></i> Iniciar Sesion</button>
+                            <button type="submit" class="btn btn-primary"><i class="fa-solid fa-user-check"></i> Iniciar
+                                Sesion</button>
                         </form>
 
 
